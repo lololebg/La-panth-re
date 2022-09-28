@@ -509,6 +509,7 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    width: 98%;
 }
 
 .scrollToTop {
@@ -678,7 +679,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -742,6 +743,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .portfolio-row {
@@ -782,6 +784,7 @@ h4 {
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
+   
 }
 
 .btn-atomic-tangerine:hover {
@@ -1026,6 +1029,18 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+
+    img{
+        width: 100%;
+      
+
+    }
+
+    .center-block.image-resize-mode {
+        width: 22%;
+        position: relative;
+        left: 0px;
     }
 }
 
